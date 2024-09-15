@@ -140,16 +140,14 @@ export const DATA = {
       href: "https://buildspace.so",
       degree: "M.E Computer Science and Engineering (CSE) - 8.6 CGPA",
       logoUrl: "/SRIT.png",
-      start: "",
-      end: "",
+      
     },
     {
       school: "KPR Institute of Engineering and Technology, Coimbatore (2019 - 2023)",
       href: "https://kpriet.ac.in/",
       degree: "B.E Computer Science and Engineering (CSE) - 8.0 CGPA",
       logoUrl: "/KPRIET.jpg",
-      start: "",
-      end: "",
+    
     },
   ],
   projects: [
