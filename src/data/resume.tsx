@@ -81,7 +81,7 @@ export const DATA = {
       title: "AI Engineer",
       logoUrl: "/dhyana.png",
       start: "June 2024",
-      end: "Augest 2024",
+      end: "Aug 2024",
       description:
         " Created a lightweight, responsive object detection system with Python, PyTorch, and SQL for embedded boards, integrating traditional computer vision with advanced machine learning and LLM models to automate and secure surveillance.",
     },
@@ -92,7 +92,7 @@ export const DATA = {
       location: "Chennai - Onsite",
       title: "Software Engineer",
       logoUrl: "/Avasoft.jpg",
-      start: "February 2024",
+      start: "Feb 2024",
       end: "May 2024",
       description:
         "Worked on internal products to accelerate development and optimize software design, gaining hands-on experience in design, flow, and pseudo-coding. Contributed to data integration and database management, enhancing backend processes and application efficiency through API management.",
@@ -104,8 +104,8 @@ export const DATA = {
       location: "Tiruppur - Remote",
       title: "freelancer",
       logoUrl: "/nexusnova.jpg",
-      start: "September 2023",
-      end: "February 2024",
+      start: "Sept 2023",
+      end: "Feb 2024",
       description:
         "In the Time of Freelacing. I learned and Worked in UI/UX design for an Startup's, Business and Strategy Analyst in Tiruppur based E-Commerce (Nexa, Siyaram and Swathi) band's and Mainly contributed and implementing an White Research paper for Ph.D schoolar in Computer Vision.",
     },
@@ -117,7 +117,7 @@ export const DATA = {
       title: "Full Stack developer Intern",
       logoUrl: "/virtusa.jpeg",
       start: "June 2023",
-      end: "September 2023",
+      end: "Sept 2023",
       description:
         "Managed the database design for an Inventory Management System, focusing on data integrity and efficiency. Improved system performance by developing and optimizing complex SQL queries for better data storage and retrieval, impacting both frontend and backend.",
     },
@@ -129,7 +129,7 @@ export const DATA = {
       title: "Inplan Training - AI/ML",
       logoUrl: "/getway.png",
       start: "June 2022",
-      end: "August 2022",
+      end: "Aug 2022",
       description:
         "In Three Month of Inplan Training gained an knowledge about the Python, EDA Processing and Basic Machine learning algorithms and hands on Project experiences",
     },
