@@ -121,32 +121,32 @@ export const DATA = {
       description:
         "Managed the database design for an Inventory Management System, focusing on data integrity and efficiency. Improved system performance by developing and optimizing complex SQL queries for better data storage and retrieval, impacting both frontend and backend.",
     },
-    {
-      company: "Gateway Software Solutions",
-      href: "https://gatewaysoftwaresolutions.com/",
-      badges: [],
-      location: "Coimbatore - Remote",
-      title: "Inplan Training - AI/ML",
-      logoUrl: "/getway.png",
-      start: "June 2022",
-      end: "Aug 2022",
-      description:
-        "In Three Month of Inplan Training gained an knowledge about the Python, EDA Processing and Basic Machine learning algorithms and hands on Project experiences",
-    },
+    // {
+    //   company: "Gateway Software Solutions",
+    //   href: "https://gatewaysoftwaresolutions.com/",
+    //   badges: [],
+    //   location: "Coimbatore - Remote",
+    //   title: "Inplan Training - AI/ML",
+    //   logoUrl: "/getway.png",
+    //   start: "June 2022",
+    //   end: "Aug 2022",
+    //   description:
+    //     "In Three Month of Inplan Training gained an knowledge about the Python, EDA Processing and Basic Machine learning algorithms and hands on Project experiences",
+    // },
   ],
   education: [
     {
-      school: "Sri Ramakrishna Institute of Technology, Coimbatore",
+      school: "Sri Ramakrishna Institute of Technology, Coimbatore       ",
       href: "https://buildspace.so",
-      degree: "M.E Computer Science and Engineering - 8.6 CGPA",
+      degree: "M.E Computer Science and Engineering (CSE) - 8.6 CGPA",
       logoUrl: "/SRIT.png",
       start: "2023",
       end: "2025",
     },
     {
-      school: "KPR Institute of Engineering and Technology, Coimbatore  ",
+      school: "KPR Institute of Engineering and Technology, Coimbatore    ",
       href: "https://kpriet.ac.in/",
-      degree: "B.E Computer Science and Engineering - 8.0 CGPA",
+      degree: "B.E Computer Science and Engineering (CSE) - 8.0 CGPA",
       logoUrl: "/KPRIET.jpg",
       start: "2019",
       end: "2023",
