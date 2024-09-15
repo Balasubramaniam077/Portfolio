@@ -136,20 +136,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Sri Ramakrishna Institute of Technology, Coimbatore       ",
+      school: "Sri Ramakrishna Institute of Technology, Coimbatore (2023 - 2025)",
       href: "https://buildspace.so",
       degree: "M.E Computer Science and Engineering (CSE) - 8.6 CGPA",
       logoUrl: "/SRIT.png",
-      start: "2023",
-      end: "2025",
+      start: "",
+      end: "",
     },
     {
-      school: "KPR Institute of Engineering and Technology, Coimbatore    ",
+      school: "KPR Institute of Engineering and Technology, Coimbatore (2019 - 2023)",
       href: "https://kpriet.ac.in/",
       degree: "B.E Computer Science and Engineering (CSE) - 8.0 CGPA",
       logoUrl: "/KPRIET.jpg",
-      start: "2019",
-      end: "2023",
+      start: "",
+      end: "",
     },
   ],
   projects: [
