@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { link } from "fs/promises";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -281,31 +282,34 @@ export const DATA = {
   hackathons: [
     {
       title: "Python for Data Science and Machine Learning Bootstrap on Udemy.",
-      // dates: "" ,
+      dates: "" ,
       location: "Udemy",
       description:
         "Learned about the Data Science and Machine learning algorithms by implementing an real time problem statement.",
       image: "/udemy.png",
+      links: []
 
     },
     {
       title: "Oracle Certiﬁed Associate, Java SE 8 Programmer",
-      // dates: "",
+      dates: "",
       location: "Oracle",
       description:
         "I learned and complete an orcle associate certification by attenting an Physical examization in bangalore",
       image:"/oracle.png",
     mlh: "/oracle.png",
+    links: []
     },
     {
       title: "Front-End Web UI Frameworks and Tools:Bootstrap 4",
-      // dates: "",
+      dates: "",
       location: "Coursera",
       description:
         "In this certification I learned about the web technology and UI frameworks as Figma with Tools.",
       icon: "/coursera.png",
       image:
         "/coursera.png",
+      links: []
     },
   ],
   // hackathons: [
