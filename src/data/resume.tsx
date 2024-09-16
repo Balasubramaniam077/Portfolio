@@ -154,7 +154,7 @@ export const DATA = {
     {
       title: "Crop Yield Monitor",
       href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "Jan 20 - Feb 2024",
       active: true,
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
@@ -177,47 +177,45 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "/Crop.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Crop Yield Monitor",
+      href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
+      dates: "Jan 2023 - April 2023",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "The system you developed aims to identify diseases in crop leaves and predict overall yield, helping farmers monitor crop health. It goes a step further by recommending natural fertilizers to improve the quality of crops. Designed to be user-friendly, the system supports local languages, allowing farmers to easily use it through a mobile phone. This accessibility helps prevent crop diseases and enhances the decision-making process for maintaining healthy, productive farms, all while encouraging sustainable agricultural practices.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Python",
+        "Flask",
+        "MongoDB",
+        "React Js",
+        "AWS",
+        "Bootstrap",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://magicui.design",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "/Crop.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Number Plate Tracking & Safety System",
+      href: "https://license-plate-green.vercel.app/",
+      dates: "April 2023 - Jan 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "The AI-powered system you developed integrates with CCTV cameras, using OCR to track and extract vehicle number plates accurately. It sends automatic email alerts, seamlessly integrates data, and includes real-time safety features like helmet detection and pillion rider monitoring to ensure compliance, making roads safer and the process more efficient.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -242,7 +240,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "/Crop.mp4",
     },
     {
       title: "Automatic Chat",
@@ -271,7 +269,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "/Crop.mp4",
     },
   ],
   hackathons: [
