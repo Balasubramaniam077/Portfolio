@@ -193,7 +193,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      {/* <section id="hackathons">
+      <section id="research">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -202,12 +202,11 @@ export default function Page() {
                   Research Publications
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  My Certification are!
+                  My Publications are!
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                   I Completed{" "}
-                  {DATA.hackathons.length}+ Certifcations. Completing a certification course in a short time has been crucial 
-                  in quickly enhancing my skills and knowledge.
+                   I Published{" "}
+                  {DATA.research.length}+ reseaerch articles. Publishing my research paper has been instrumental in expanding my expertise and contributing valuable insights to the academic community
                 </p>
               </div>
             </div>
@@ -215,7 +214,7 @@ export default function Page() {
 
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
+              {DATA.research.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
@@ -233,7 +232,7 @@ export default function Page() {
             </ul>
           </BlurFade>
         </div>
-      </section> */}
+      </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -247,10 +246,10 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 {" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  with a direct question on LinkedIn
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.

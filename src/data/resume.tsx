@@ -55,13 +55,13 @@ export const DATA = {
         url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Youtube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -247,7 +247,7 @@ export const DATA = {
     {
       title: "Mask Position Identiﬁcation in Pandemic",
       href: "https://github.com/Balasubramaniam077/Mask_object-detection",
-      dates: "April 2023 - March 2024",
+      dates: "Augest 2022 - January 2023",
       active: true,
       description:
         "A real-time mask position identification system was developed using computer vision to monitor mask usage during the COVID-19 pandemic. It automatically detects improper mask positions and triggers audible alerts to ensure compliance with safety protocols, enhancing public safety and preventing the spread of the virus in public spaces.",
@@ -269,8 +269,8 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/Balasubramaniam077/Mask_object-detection",
-          icon: <Icons.github className="size-3" />,
+          href: "https://data.mendeley.com/datasets/6zy6wxhf2v/1",
+          icon: <Icons.email className="size-3" />,
         },
         
       ],
@@ -312,38 +312,71 @@ export const DATA = {
       links: []
     },
   ],
-  // hackathons: [
-  //   {
-  //     title: "Python for Data Science and Machine Learning Bootstrap on Udemy.",
-  //     dates: "" ,
-  //     location: "Udemy",
-  //     description:
-  //       "Learned about the Data Science and Machine learning algorithms by implementing an real time problem statement.",
-  //     image:
-  //       "/udemy.png",
-  //     mlh: "/udemy.png",
-  //     links: [],
-  //   },
-  //   {
-  //     title: "Oracle Certiﬁed Associate, Java SE 8 Programmer",
-  //     dates: "",
-  //     location: "Oracle",
-  //     description:
-  //       "I learned and complete an orcle associate certification by attenting an Physical examization in bangalore",
-  //     image:
-  //       "/oracle.png",
-  //     mlh: "/oracle.png",
-  //     links: [],
-  //   },
-  //   {
-  //     title: "Front-End Web UI Frameworks and Tools:Bootstrap 4",
-  //     dates: "",
-  //     location: "Coursera",
-  //     description:
-  //       "In this certification I learned about the web technology and UI frameworks as Figma with Tools.",
-  //     icon: "/coursera.png",
-  //     image:
-  //       "/coursera.png",
-  //   },
-  // ],
+  research: [
+    {
+      title: "Drone based defence vision model : Electronic Warfare",
+      dates: "2024" ,
+      location: "White Paper - MDPI - Present",
+      description:
+        "Implemeting Automated Tracking Vision system to identify the target in upskill without effect or defect in electroinc warfare.",
+      image:"/MDPI.png",
+      links: [],
+    },
+    {
+      title: "K-Kotagiri (NRB) Avocado Leaf Dataset.",
+      dates: "2024" ,
+      location: "Mendeley Data",
+      description:
+        "The Avocado Image Dataset consists of 435 raw images showcasing both healthy and disease-infected avocados, with 216 images depicting avocados affected by various diseases and 219 images representing healthy specimens. Prior to annotation, the dataset underwent a splitting process with a ratio of 7:2:1 for training, validation, and testing respectively. Post-processing, all images were resized to 224x224 pixels. Annotation techniques, including vertical flipping, 90-degree rotation, and shearing, were exclusively applied during the training phase to enhance dataset diversity. The augmented dataset distribution across training, validation, and testing sets is outlined, showcasing a balanced representation of both healthy and diseased avocado images.",
+      image:"/mendeley.jpeg",
+    },
+    {
+      title: "K-Kotagiri Tea Leaf Dataset",
+      dates: "2024",
+      location: "Mendeley Data",
+      description:
+        "In the serene tea fields of Kotagiri (Kaithala), Tamil Nadu, India, a dedicated team embarked on a fascinating journey to delve into the intricacies of tea leaf diseases using captured images. Datasets consist of 4259 images which includes original and augmented images of healthy and disease classes. Out of which, 225 original images of healthy class and 303 original images of disease class. Similarly, 1610 augmented images of healthy class and 2121 augmented images of disease class.",
+      image:"/mendeley.jpeg",
+    },
+    {
+      title: "Tea Leaf Disease Identification using Improved Convolution Neural Network",
+      dates: "2023",
+      location: "2023 International Conference on Digital Applications, Transformation & Economy (ICDATE), Malaysia",
+      description:
+        "Plant diseases are a significant concern for the agricultural industry, as they can reduce crop yields and cause economic losses. Tea is a popular and widely consumed beverage in India, and the tea crop can be affected by different leaf diseases. Early detection of the diseases is essential to prevent the spread of other crops and minimize production losses. Traditional methods of detecting leaf diseases involve manually interpreting the images, which can be time-consuming and laborious. To address this, artificial intelligence techniques, specifically deep learning models are used for more accurate and efficient detection of tea leaf disease. This study compares the performance of several deep learning models including ResNet50, Resnet50-RS, ResNetlOl-V2, and Modified-ResNet50-V2 (M-RN50V2) and finds that the M-RN50V2 model has the highest accuracy at 90.S4%. Overall, this work aims to promote …",
+      icon: "/research2023.jpeg",
+      image:
+        "/research2023.jpeg",
+    },
+    {
+      title: "Monitoring COVID-19 Environment: A real-time facial mask detection using YOLO models",
+      dates: "2023",
+      location: "Open Publication - Springer - still in Process",
+      description:
+        "Purpose: COVID-19&#39;s fast spread has caused substantial damage and affected more than tens of millions of individuals around the world. People frequently wear masks to safeguard themselves and others against the transmission of coronavirus. Coronavirus protection guidelines have been published by the World Health Organization (WHO). According to WHO standards, COVID-19 can be prevented by wearing a mask in public places and congested regions. In these places, it&#39;s very difficult to personally check to see if people are wearing face masks or not.",
+      icon: "/springer.jpeg",
+      image:
+        "/springer.jpeg",
+    },
+    {
+      title: "Deep Learning Models for Potato Leaf Disease Identification: A Comparative Analysis",
+      dates: "2022",
+      location: "2022 International Conference on Green Energy, Computing and Sustainable Technology (GECOST), Malaysia",
+      description:
+        "Plant diseases are the most crucial factor in the agriculture sector, which causes a reduction in yield and economic loss. Therefore, early and accurate detection of these diseases can control the infection spread to other crops and minimize production loss. Traditional methods use the handcrafted features of the images to detect the infection part of the leaves and infection type. Furthermore, the extraction of these features is expensive and time-consuming. However, in light of recent advances in agricultural technology, such as the use of artificial intelligence in diagnosing plant diseases, appropriate research must be conducted toward the development of agriculture in a sustainable manner. However, manually interpreting these leaf diseases can be time-consuming and laborious, and they significantly impact potato quality and yield due to diseases like early blight and late blight. In addition, this study seeks to optimize cutting-edge deep learning (DL) models for detecting potato leaf disease. The deep learning models such as ResNet50, Inception V3, VGG16, and VGG19 are evaluated and their performances are compared. The experimental findings show that the VGG19 model outperforms the other models with an accuracy of 99%.",
+      icon: "/research2022.jpeg",
+      image:
+        "research2022.jpeg",
+    },
+    {
+      title: "Real-Time Handgun Detection in Surveillance Videos based on Deep Learning Approach",
+      dates: "2022",
+      location: "2022 International Conference on Applied Artificial Intelligence and Computing (ICAAIC), India",
+      description:
+        "Closed-circuit television (CCTV) systems are vital to prevent security threats to public safety. Nowadays, the use of weapons causes a big security threat in public places and it creates a lot of violence. The quick detection of handguns in public places is very important to avoid or reduce risks. Some places in the world have a lot of crimes that are committed with handguns, even though guns aren't allowed. Closed-circuit television (CCTV) has been used a lot to keep an eye on these situations; it's time to keep an eye on the images. This task is typically carried out by a human, who is more prone to forgetting them due to fatigue or being distracted by something else. Detecting handguns on their own is very important in catching people who use guns to do bad things. Deep-learning based object detectors can't find handguns of different sizes in an unrestricted area. In this work, deep learning techniques are used for automatic detection of handguns in an unconstrained environment through video surveillance footage.",
+      icon: "ICAAIC.jpeg",
+      image:
+        "ICAAIC.jpeg",
+    },
+  ],
 } as const;
