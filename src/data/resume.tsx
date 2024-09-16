@@ -153,7 +153,13 @@ export const DATA = {
       start: "2019",
       end: "2023",
     },
+
   ],
+
+
+
+// Projects page 
+
   projects: [
     {
       title: "Crop Yield Monitor",
@@ -171,13 +177,6 @@ export const DATA = {
         "Stripe",
         "Shadcn UI",
         "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "",
       video:
@@ -198,18 +197,6 @@ export const DATA = {
         "AWS",
         "Bootstrap",
       ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://magicui.design",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
       image: "",
       video: "/Crop.mp4",
     },
@@ -228,18 +215,6 @@ export const DATA = {
         "OCR",
         "Excel",
         "Custom dataset",
-      ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://llm.report",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/dillionverma/llm.report",
-        //   icon: <Icons.github className="size-3" />,
-        // },
       ],
       image: "",
       video: "License.mp4",
@@ -261,24 +236,14 @@ export const DATA = {
         "Data Anlysis Report",
         "Excel + PowerBI",
       ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://automatic.chat",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://data.mendeley.com/datasets/6zy6wxhf2v/1",
-          icon: <Icons.email className="size-3" />,
-        },
-        
-      ],
       image: "",
       video:
         "Mask.mp4",
     },
   ],
+
+
+  // Certification 
   hackathons: [
     {
       title: "Python for Data Science and Machine Learning Bootstrap on Udemy.",
@@ -287,7 +252,6 @@ export const DATA = {
       description:
         "Learned about the Data Science and Machine learning algorithms by implementing an real time problem statement.",
       image: "/udemy.png",
-      links: []
 
     },
     {
@@ -298,7 +262,6 @@ export const DATA = {
         "I learned and complete an orcle associate certification by attenting an Physical examization in bangalore",
       image:"/oracle.png",
     mlh: "/oracle.png",
-    links: []
     },
     {
       title: "Front-End Web UI Frameworks and Tools:Bootstrap 4",
@@ -309,9 +272,13 @@ export const DATA = {
       icon: "/coursera.png",
       image:
         "/coursera.png",
-      links: []
     },
   ],
+
+
+// Research page Starts 
+
+
   research: [
     {
       title: "Drone based defence vision model : Electronic Warfare",
@@ -320,7 +287,7 @@ export const DATA = {
       description:
         "Implemeting Automated Tracking Vision system to identify the target in upskill without effect or defect in electroinc warfare.",
       image:"/MDPI.png",
-      links: [],
+
     },
     {
       title: "K-Kotagiri (NRB) Avocado Leaf Dataset.",

@@ -145,7 +145,7 @@ export default function Page() {
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
-                  links={project.links}
+                  // links={project.links}
                 />
               </BlurFade>
             ))}
@@ -185,7 +185,7 @@ export default function Page() {
                     location={project.location}
                     dates={project.dates}
                     image={project.image}
-                    links={project.links}
+                    // links={project.links}
                   />
                 </BlurFade>
               ))}
@@ -225,7 +225,7 @@ export default function Page() {
                     location={project.location}
                     dates={project.dates}
                     image={project.image}
-                    links={project.links}
+                    // links={project.links}
                   />
                 </BlurFade>
               ))}
