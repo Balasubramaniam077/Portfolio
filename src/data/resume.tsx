@@ -177,7 +177,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/Crop.mp4",
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Crop Yield Monitor",
@@ -185,7 +185,7 @@ export const DATA = {
       dates: "Jan 2023 - April 2023",
       active: true,
       description:
-        "The system you developed aims to identify diseases in crop leaves and predict overall yield, helping farmers monitor crop health. It goes a step further by recommending natural fertilizers to improve the quality of crops. Designed to be user-friendly, the system supports local languages, allowing farmers to easily use it through a mobile phone. This accessibility helps prevent crop diseases and enhances the decision-making process for maintaining healthy, productive farms, all while encouraging sustainable agricultural practices.",
+        "A system was developed to identify crop diseases and predict yield, aiding farmers in monitoring crop health. It also recommends natural fertilizers for improved crop quality. User-friendly and supporting local languages, the system allows farmers to prevent diseases and promote sustainable agriculture via mobile access.",
       technologies: [
         "Python",
         "Flask",
@@ -207,7 +207,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/Crop.mp4",
+      video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Number Plate Tracking & Safety System",
@@ -217,15 +217,13 @@ export const DATA = {
       description:
         "The AI-powered system you developed integrates with CCTV cameras, using OCR to track and extract vehicle number plates accurately. It sends automatic email alerts, seamlessly integrates data, and includes real-time safety features like helmet detection and pillion rider monitoring to ensure compliance, making roads safer and the process more efficient.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Python",
+        "Object Detection(YOLO)",
+        "C++",
+        "MySQL",
+        "OCR",
+        "Excel",
+        "Custom dataset",
       ],
       links: [
         {
@@ -240,25 +238,24 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/Crop.mp4",
+      video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
+      title: "Mask Position Identiﬁcation in Pandemic",
+      href: "https://github.com/Balasubramaniam077/Mask_object-detection",
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "A real-time mask position identification system was developed using computer vision to monitor mask usage during the COVID-19 pandemic. It automatically detects improper mask positions and triggers audible alerts to ensure compliance with safety protocols, enhancing public safety and preventing the spread of the virus in public spaces.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Python",
+        "C++",
+        "Proposed Object Detection",
+        "Custom Datset",
+        "Open CV",
+        "Darknet",
+        "Data Anlysis Report",
+        "Excel + PowerBI",
       ],
       links: [
         {
@@ -269,7 +266,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/Crop.mp4",
+        "Crop.mp4",
     },
   ],
   hackathons: [
