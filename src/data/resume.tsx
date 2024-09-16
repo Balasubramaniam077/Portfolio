@@ -140,6 +140,8 @@ export const DATA = {
       href: "https://buildspace.so",
       degree: "M.E Computer Science and Engineering (CSE) - 8.6 CGPA",
       logoUrl: "/SRIT.png",
+      start: "",
+      end: "",
       
     },
     {
@@ -147,7 +149,8 @@ export const DATA = {
       href: "https://kpriet.ac.in/",
       degree: "B.E Computer Science and Engineering (CSE) - 8.0 CGPA",
       logoUrl: "/KPRIET.jpg",
-    
+      start: "",
+      end: "",
     },
   ],
   projects: [
@@ -207,7 +210,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "/Crop.mp4",
     },
     {
       title: "Number Plate Tracking & Safety System",
