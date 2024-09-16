@@ -141,8 +141,8 @@ export const DATA = {
       href: "https://www.srit.org/",
       degree: "M.E Computer Science and Engineering (CSE) - 8.6 CGPA",
       logoUrl: "/SRIT.png",
-      start: "2023",
-      end: "2025",
+      start: "",
+      end: "",
       
     },
     {
@@ -150,8 +150,8 @@ export const DATA = {
       href: "https://kpriet.ac.in/",
       degree: "B.E Computer Science and Engineering (CSE) - 8.0 CGPA",
       logoUrl: "/KPRIET.jpg",
-      start: "2019",
-      end: "2023",
+      start: "",
+      end: "",
     },
 
   ],
