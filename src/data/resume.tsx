@@ -290,6 +290,15 @@ export const DATA = {
 
     },
     {
+      title: "Bloodcell Detection using an Optimized YOLOv8 algorithms with an fine tune methodology",
+      dates: "2024" ,
+      location: "White Paper - Electronics Letters - Present",
+      description:
+        "Blood cell identification in microscopic images is a crucial area of medical image processing. The examination of blood images under the microscope contributes to disease diagnosis by distinguishing the types of blood cells. Manual detection of blood cells is time-consuming and sometimes prone to an error. A blood routine examination evaluates the number and morphology of platelets, white blood cells (WBCs), and red blood cells (RBCs), each playing critical roles in the body. Variations in these cells can indicate various diseases and timely detection of blood cells is vital to reducing the risk of infection. necessitating precise and timely detection. In this paper a modified YOLOv8 model is introduced to enhance the blood cell detection and classification. This model achieves a high detection accuracy of 0.939, surpassing other YOLO variants. The proposed model proves to be a powerful tool for accurate blood cell detection, significantly aiding in the diagnosis and treatment of blood disorders.",
+      image:"/IET.png",
+
+    },
+    {
       title: "K-Kotagiri (NRB) Avocado Leaf Dataset.",
       dates: "2024" ,
       location: "Mendeley Data",
@@ -318,7 +327,7 @@ export const DATA = {
     {
       title: "Monitoring COVID-19 Environment: A real-time facial mask detection using YOLO models",
       dates: "2023",
-      location: "Open Publication - Springer - still in Process",
+      location: "Open Publication - Springer - Still in Process (3rd Revision)",
       description:
         "Purpose: COVID-19&#39;s fast spread has caused substantial damage and affected more than tens of millions of individuals around the world. People frequently wear masks to safeguard themselves and others against the transmission of coronavirus. Coronavirus protection guidelines have been published by the World Health Organization (WHO). According to WHO standards, COVID-19 can be prevented by wearing a mask in public places and congested regions. In these places, it&#39;s very difficult to personally check to see if people are wearing face masks or not.",
       icon: "/springer.jpeg",
