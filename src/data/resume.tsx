@@ -79,7 +79,7 @@ export const DATA = {
       href: "https://www.dhyanalab.in/home",
       badges: [],
       location: "Coimbatore - hybrid",
-      title: "AI Engineer",
+      title: "Research & developement Engineer",
       logoUrl: "/dhyana.png",
       start: "June 2024",
       end: "Aug 2024",
@@ -161,27 +161,27 @@ export const DATA = {
 // Projects page 
 
   projects: [
-    {
-      title: "Crop Yield Monitor",
-      href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
-      dates: "Jan 20 - Feb 2024",
-      active: true,
-      description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
+    // {
+    //   title: "Crop Yield Monitor",
+    //   href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
+    //   dates: "Jan 20 - Feb 2024",
+    //   active: true,
+    //   description:
+    //     "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Stripe",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    // },
     {
       title: "Crop Yield Monitor",
       href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
