@@ -190,7 +190,7 @@ export const DATA = {
       dates: "Augest 2024 -  Present",
       active: true,
       description:
-        "The system you developed integrates with CCTV cameras equipped with night vision to monitor forest areas bordering villages, specifically in the Sathyamangalam Forest near Erode. Utilizing advanced computer vision algorithms, the system detects animals entering the village and activates an alarm to alert humans of potential threats. Additionally, it generates specific sounds designed to drive the animals back into the forest, offering a proactive solution for wildlife management and ensuring human safety in rural areas.",
+        "The system integrates night-vision CCTV cameras to monitor the Sathyamangalam Forest near Erode. Using computer vision, it detects animals entering villages, triggers alarms to alert people, and plays sounds to drive the animals back into the forest, ensuring both wildlife management and human safety.",
       technologies: [
         "Python",
         "C++",
