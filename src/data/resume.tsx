@@ -11,7 +11,7 @@ export const DATA = {
   description:
     " Software engineer who enjoys building efficient systems and driving innovation with technology.",
   summary:
-    " I’m a software engineer with a focus on machine learning and database management. I develop efficient systems and integrate AI technologies to enhance performance. Eager to apply my skills to drive innovation and solve real-world challenges.",
+    " I’m a software engineer with a focus on Software developemt and database management. I develop efficient systems and integrate AI technologies to enhance performance. Eager to apply my skills to drive innovation and solve real-world challenges.",
   avatarUrl: "/Profile.jpeg",
   skills: [
     "Python",
@@ -26,7 +26,9 @@ export const DATA = {
     "Langchain",
     "LLMs",
     "Firebase",
-    "Research & Development"
+    "Research & Development",
+    "Technical Proposal Writing",
+    "Content Writing"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -51,7 +53,7 @@ export const DATA = {
         navbar: true,
       },
       X: {
-        name: "X",
+        name: "Call",
         url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
 
@@ -79,12 +81,12 @@ export const DATA = {
       href: "https://www.dhyanalab.in/home",
       badges: [],
       location: "Coimbatore - hybrid",
-      title: "Research & developement Engineer",
+      title: "Research & Developement Engineer",
       logoUrl: "/dhyana.png",
       start: "June 2024",
       end: "Aug 2024",
       description:
-        " Created a lightweight, responsive object detection system with Python, PyTorch, and SQL for embedded boards, integrating traditional computer vision with advanced machine learning and LLM models to automate and secure surveillance.",
+        " Created a lightweight, responsive object detection system with Python, PyTorch, and SQL for embedded boards, integrating traditional computer vision with advanced machine learning algorithms to automate for secure surveillance.",
     },
     {
       company: "Avasoft",
@@ -96,7 +98,7 @@ export const DATA = {
       start: "Feb 2024",
       end: "May 2024",
       description:
-        "Worked on internal products to accelerate development and optimize software design, gaining hands-on experience in design, flow, and pseudo-coding. Contributed to data integration and database management, enhancing backend processes and application efficiency through API management.",
+        "Worked on internal products to accelerate development and optimize software design, gaining hands-on experience in design, flow, and pseudo-coding (Software Development Life Cycle). Contributed to data integration and database management to connecting an API call's.",
     },
     {
       company: "Nexusnova Solutions",
@@ -183,6 +185,24 @@ export const DATA = {
     //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     // },
     {
+      title: "Animal monitoring and surveillance",
+      href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
+      dates: "Augest 2024 -  Present",
+      active: true,
+      description:
+        "The system you developed integrates with CCTV cameras equipped with night vision to monitor forest areas bordering villages, specifically in the Sathyamangalam Forest near Erode. Utilizing advanced computer vision algorithms, the system detects animals entering the village and activates an alarm to alert humans of potential threats. Additionally, it generates specific sounds designed to drive the animals back into the forest, offering a proactive solution for wildlife management and ensuring human safety in rural areas.",
+      technologies: [
+        "Python",
+        "C++",
+        "Deep learning",
+        "Computer Vision",
+        "Embedded PCB",
+        "Custom Annotation -  Real Time Dataset",
+      ],
+      image: "",
+      video: "/animal.mp4",
+    },
+    {
       title: "Crop Yield Monitor",
       href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
       dates: "Jan 2023 - April 2023",
@@ -210,8 +230,6 @@ export const DATA = {
       technologies: [
         "Python",
         "Object Detection(YOLO)",
-        "C++",
-        "MySQL",
         "OCR",
         "Excel",
         "Custom dataset",

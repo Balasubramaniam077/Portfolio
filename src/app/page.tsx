@@ -253,6 +253,12 @@ export default function Page() {
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
+                <h2 className="text-xl font-bold tracking-tighter sm:text-1xl">
+                Email : balabramanaimvadivel@gmail.com
+                </h2>
+                <h2 className="text-xl font-bold tracking-tighter sm:text-l">
+                  Call or Whats app: +91 9360361518
+                </h2>
               </p>
             </div>
           </BlurFade>
