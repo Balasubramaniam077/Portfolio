@@ -186,7 +186,7 @@ export const DATA = {
     // },
     {
       title: "Animal monitoring and surveillance",
-      href: "https://github.com/Balasubramaniam077/Crop-Output-Estimation-and-Quality-Assessment",
+      href: "https://animal-monitoring-erode.vercel.app/",
       dates: "Augest 2024 -  Present",
       active: true,
       description:
